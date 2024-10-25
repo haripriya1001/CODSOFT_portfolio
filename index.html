@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome CDN -->
+  <!-- Font Awesome CDN -->
+<!-- Font Awesome CDN -->
+
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <!-- Left side Logo -->
+                <div class="logo">
+                    <a href="#">HARIPRIYA</a>
+                </div>
+                <!-- Right side navigation links -->
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skillss">Skills</a></li>
+                    <li><a href="#projectss">projects</a></li>
+                    <li><a href="#containerr">Service</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contactzz">Contact</a></li>
+                </ul>
+            </nav>
+
+               
+                <h1>HARIPRIYA <span>AYYAPPAN</span></h1>
+                <p>Web Development & UI/UX Designer</p>
+            
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="about-content">
+                <h1>About <span class="highlightss">Me</span></h1>
+                <p>My name is Haripriya Ayyappan. I'm a web Developer & UI/UX Designer. And, I'm very passionate and dedicated to my work.
+                     I have acquired the skills necessary to build great and premium websites.</p>
+                <div class="info">
+                    <div class="info-item"><strong>Name:</strong>Haripriya Ayyappan</div>
+                    <div class="info-item"><strong>Phone:</strong> +91 2323232323</div>
+                    <div class="info-item"><strong>Age:</strong> 22</div>
+                    <div class="info-item"><strong>Address:</strong> Thevur, Nagapattinam</div>
+            
+                    <div class="info-item"><strong>Freelance:</strong> Available</div>
+                    
+                    <div class="info-item"><strong>Dribbble:</strong> smith.dribbble</div>
+                </div>
+                <a href="HP resume (new).pdf" class="download-btn">Download CV</a>
+            </div>
+            <div class="about-image">
+                <img src="hpp.jpg" alt="About Razan Smith">
+            </div>
+        </div>
+    </section>
+
+    <!--skills-->
+    <div id="skillss">
+    <h1>My <span class="highlightss">Skills</span></h1>
+  <div class="skills-area">
+    <div class="skill">
+        <div class="skill-title">HTML</div>
+        <div class="skill-bar"></div>
+        <div class="html skill-fill">
+        <span class="skill-percent">50%</span>
+        </div>
+    </div>
+    
+    <div class="skill">
+        <div class="skill-title">CSS</div>
+        <div class="skill-bar"></div>
+        <div class="css skill-fill">
+        <span class="skill-percent">80%</span>
+        </div>
+    </div>
+     
+    <div class="skill">
+        <div class="skill-title">javascript</div>
+        <div class="skill-bar"></div>
+        <div class="javascript skill-fill">
+        <span class="skill-percent">70%</span>
+        </div>
+    </div>
+    <div class="skill">
+        <div class="skill-title">Git</div>
+        <div class="skill-bar"></div>
+        <div class="git skill-fill">
+        <span class=" skill-percent">80%</span>
+        </div>
+  </div>
+  
+    <div class="skill">
+        <div class="skill-title">Tailwind css</div>
+        <div class="skill-bar"></div>
+        <div class=".Tailwind css skill-fill">
+        <span class="skill-percent">90%</span>
+        </div>
+    </div>
+  </div>
+</div>
+  <!--projects-->
+  <div id="projectss">
+    <h1>My <span class="highlight">Projects</span></h1>
+    <div class="projects">
+        <div class="project-item" onclick="showDescription(0)">
+            <img src="bowl4.jpg" alt="Project 1">
+        </div>
+        <div class="project-item" onclick="showDescription(1)">
+            <img src="calc.jpg" alt="Project 2">
+        </div>
+        
+    </div>
+    <div class="project-description">
+        <p id="description-0" class="description"> 
+         <span style="color:white"> Project Title : Landing page of poke bowl Restartunt</span> <br>For this project, I designed and developed a landing page for a Poke Bowl restaurant, showcasing a diverse range of delicious and healthy bowl options. This project allowed me to apply my practical knowledge of HTML and CSS, further enhancing my skills in web development.
+
+
+
+        </p>  
+           
+        <p id="description-1" class="description">
+            <span style="color:white">  Project Title : Simple calculator</span> <br>This project involves designing and developing a simple calculator using HTML, CSS, and JavaScript. The calculator performs basic arithmetic operations such as addition, subtraction, multiplication, and division, and includes features like clear display and backspace.
+</p>
+       
+       
+    </div>
+</div>
+
+<script>
+    function showDescription(index) {
+        // Hide all descriptions
+        const descriptions = document.querySelectorAll('.description');
+        descriptions.forEach(desc => desc.style.display = 'none');
+        
+        // Show selected description
+        document.getElementById('description-' + index).style.display = 'block';
+    }
+
+    // Initialize with the first project description visible
+    showDescription(0);
+</script>
+
+
+  
+  <!--service-->
+      <div id="containerr">
+        <h1>My <span class="highlightz">Service</span></h1>
+          <div class="services">
+              <div class="service-box">
+                  <i class="fas fa-code"></i>
+                  <h3>Web Development</h3>
+                  
+              </div>
+              <div class="service-box">
+                  <i class="fas fa-cube"></i>
+                  <h3>post Design</h3>
+                
+              </div>
+              <div class="service-box">
+                  <i class="fas fa-paint-brush"></i>
+                  <h3>Design Trends</h3>
+              
+              </div>
+              <div class="service-box">
+                  <i class="fas fa-headset"></i>
+                  <h3>UI/UX Design</h3>
+            
+              </div>
+              <div class="service-box">
+                  <i class="fas fa-layer-group"></i>
+                  <h3>Photoshop</h3>
+                
+              </div>
+              <div class="service-box">
+                  <i class="fas fa-chart-line"></i>
+                  <h3>Marketing</h3>
+                  
+              </div>
+          </div>
+      </div>
+      <div id="resume">
+        
+       
+            <div class="containerp">
+                <h1>My <span class="highlightzz">Resume</span></h1>
+                <p>Interested in my work? Download my resume to know more.</p>
+                <a href="HP resume (new).pdf" download="Resume.pdf" class="download-btn">Download Resume (PDF)</a>
+            </div>
+      </div>
+      <div id="contactzz">
+        <div class="contacts">
+         <center>     <h1>Contact <span class="highlightzl">Me</span></h1></center>
+          <section class="contact">
+             
+              <p>If you have any questions or want to get in touch, feel free to drop a message below.</p>
+              
+              <form action="#" method="post" class="contact-form">
+                  <div class="form-group">
+                      <label for="name">Name</label><br>
+                      <input type="text" id="name" placeholder="name" name="name" required>
+                  </div>
+      
+                  <div class="form-group">
+                      <label for="email">Email</label><br>
+                      <input type="email" id="email"placeholder="email" name="email" required>
+                  </div>
+      
+                  <div class="form-group">
+                      <label for="message">Message</label><br>
+                      <textarea id="message" name="message" rows="6" required></textarea>
+                  </div>
+      
+                  <button type="submit">Send Message</button>
+              </form>
+          </section>
+      </div>
+  </div>
+   <!-- Footer Section -->
+   <footer class="footer">
+    <div class="social-icons">
+        <a href="https://github.com/haripriya1001" target="_blank" class="icon github">
+            <img src="c:\Users\harip\Downloads\square-github-brands-solid.svg" width="30px" height="30px" alt="GitHub">
+        </a>
+        <a href="https://www.linkedin.com/in/haripriya-ayyappan-b96558272/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3Bq%2FTVuKELS42wfGVF3z5dxA%3D%3D" target="_blank" class="icon linkedin">
+            <img src="c:\Users\harip\Downloads\linkedin-brands-solid.svg"width="30px" height="30px" alt="LinkedIn">
+        </a>
+    
+    <p>© 2024 Haripriya. All Rights Reserved.</p>
+    </div>
+</footer>
+
+    
+    
+  </body>
+  </html>
+
+
+
+   
+   
+    
+    
+
+   

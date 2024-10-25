@@ -1,0 +1,527 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(lpp.jpeg);
+    color: white;
+    line-height: 1.6;
+    height:400vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+.header {
+    background: url('background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.logo,a{
+      text-decoration: none;
+      color:white;
+}
+.logo,a:hover{
+    color: hsl(180, 69%, 59%);
+    background-color: hsl(236, 88%, 29%);
+    
+}
+
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: hsl(180, 69%, 59%);
+    background-color: hsl(236, 88%, 29%);
+}
+.navbar{
+    margin-bottom: 20%;
+}
+
+
+ h1 {
+    font-size: 5em;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    text-align: center;
+    
+}
+
+ p {
+    font-size: 1.5em;
+    color: hsl(265, 45%, 86%);
+}
+
+/* About Section */
+#about {
+    padding: 85px 0;
+    background-color: hsl(240, 20%, 81%);
+}
+#ab{
+    color:blue;font-size:35px;
+}
+
+#about .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#about-content {
+    width: 50%;
+    
+}
+#about-content,p {
+   
+    color: white;
+}
+
+h1 .highlightsss{
+    color: blue;
+  }
+
+
+#about-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: hsl(239, 86%, 45%);
+}
+
+#about-content p {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    color: black;
+}
+.info{
+    margin-top: 60px;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.info-item {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.download-btn {
+    display: inline-block;
+    background-color: hsl(236, 90%, 51%);
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: hsl(184, 89%, 39%);
+}
+
+.about-image img {
+    width: 400px;
+    border-radius: 10px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#skill{
+    background-color:white;
+    color:black;
+    font-family: "poppins",sans-serif;
+    
+}
+h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size:40px;
+}
+h1 .highlightss{
+    color: blue;
+  }
+.skills-area{
+    display: flex;
+    flex-direction:column;
+    padding: 0 20%;
+
+}
+#skillss{
+    padding: 85px 0;
+}
+skill{
+    position: relative;
+    margin-bottom: 40px;
+}
+.skill-title{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.skill-bar{
+    width:40%;
+    
+    height:30px;
+    z-index:-1;
+    border-radius:100px;
+    position: absolute;
+}
+.skill-fill{
+    background-color: blue;
+    height: 30px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 50px;
+    overflow:hidden;
+}
+.skill-percent{
+    font-size: 20px;
+}
+.html{
+    animation: html 2s;
+    width:50%;
+}
+.css{
+    animation: css 2s;
+    width:80%;
+}
+.javascript{
+    animation: javascript 2s;
+    width:70%;
+}
+.git{
+    animation: git 2s;
+    width:80%;
+}
+.React.js{
+    animation: React 2s;
+    width: 70%;
+}
+.Tailwind.css
+@keyframes html{
+    from{
+        width:0;
+    }
+    to{
+        width:50%;
+    }
+}
+@keyframes css{
+    from{
+        width:0;
+    }
+    to{
+        width:80%;
+    }
+}
+@keyframes javascript{
+    from{
+        width:0;
+    }
+    to{
+        width:70%;
+    }
+}
+@keyframes git{
+    from{
+        width:0;
+    }
+    to{
+        width:80%;
+    }
+}
+
+@keyframes Tailwindcss{
+    from{
+        width:0;
+    }
+    to{
+        width:90%;
+    }
+}
+@media only screen and (max-width:750px)
+{
+    .skill-area{
+        padding: 0 5%;
+    }
+}
+#description-0{
+    font-size:25px;
+    color: rgb(7, 7, 156);
+    padding: 15px;
+}
+#description-1{
+    font-size:25px;
+    color: rgb(7, 7, 156);
+    padding: 15px;
+}
+
+
+
+#projectss{
+   height: 600px;
+    
+    
+   background-color: hsl(240, 20%, 81%);
+}
+h1 .highlight{
+    color: blue;
+  }
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-item {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.project-item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 2px solid transparent;
+}
+.project-item:hover {
+    transform: scale(1.05);
+    border-color: #00ffff; /* Highlight on hover */
+}
+.project-description {
+    margin-top: 30px;
+    margin-left: 160px;    
+}
+.description {
+    display: none;
+    font-size: 1.2rem;
+    color: white;
+}
+.description:first-child {
+    display: inline;
+}
+
+#he3{
+   color: hsl(233, 78%, 46%);
+}
+
+h1 {
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+   
+    
+ 
+    
+    
+    #containerr {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 70px 80px;
+        height:700px;
+    }
+    
+    h1 {
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 2.5rem;
+    }
+    h1 .highlightz{
+        color: blue;
+    }
+    
+    .services {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+    }
+    
+    .service-box {
+        background-color: hsl(240, 20%, 81%);
+
+        padding: 30px;
+        border-radius: 10px;
+        text-align: center;
+        transition: transform 0.3s ease;
+    }
+    
+    .service-box:hover {
+        transform: translateY(-10px);
+    }
+    
+    .service-box i {
+        font-size: 3rem;
+        margin-bottom: 15px;
+        color: #00ff88; /* Highlight color for icons */
+    }
+    
+    .service-box h3 {
+        margin-bottom: 10px;
+        font-size: 1.5rem;
+    }
+    
+    .service-box p {
+        font-size: 1rem;
+        color: hsl(0, 25%, 20%);
+    }
+    #resume {
+        max-width: 1600px;
+        
+    
+        height:400px;
+        background-color: hsl(240, 20%, 81%);
+    }
+    h1 .highlightzz{
+        color: blue;
+    }
+    h1 {
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 2.5rem;
+    }
+    
+    
+    .containerp {
+        text-align: center;
+        
+        padding: 40px;
+        border-radius: 8px;
+       
+    }
+    
+    h1 {
+        margin-bottom: 20px;
+    }
+    
+    p {
+        margin-bottom: 30px;
+        color: #666;
+    }
+    
+    .download-btn {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        color: #fff;
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .download-btn:hover {
+        background-color: #0056b3;
+    }
+    #contacts{
+
+    }
+    .contact {
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: rgb(53, 37, 37);
+        border-radius: 10px;
+        box-shadow: 0 4px;
+    }
+    
+    .contact h2 {
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+        color: hsl(239, 86%, 45%);
+        text-align: center;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+    #contactzz{
+        
+    }
+    .contacts {
+        padding: 50px 0;
+    }
+    #cont,h2{
+        font-size: 2.5em;
+        margin-bottom: 20px;
+        color: hsl(239, 86%, 45%);
+    }
+    h1 .highlightzl{
+        color: blue;
+    }
+    .footer {
+        background-color: #333;
+      
+        text-align: center;
+        padding: 20px 0;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    .social-icons {
+        margin-bottom: 10px;
+    }
+    
+    .icon {
+        margin: 0 10px;
+        display: inline-block;
+    }
+    
+    .icon img {
+        width: 30px;
+        height: 30px;
+        filter: brightness(0) invert(1); /* Makes the icon white */
+        transition: filter 0.3s;
+    }
+    
+    .icon:hover img {
+        filter: brightness(0) invert(0.7); /* Darkens the icon on hover */
+    }
+    .social-icons,p{
+        color: white;
+    }
